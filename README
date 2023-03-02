@@ -1,7 +1,10 @@
 root@13a8b320252:/alx-pre_course# echo'My first readme' >> README.md
-git init
-git add README.md
-git commit -m "first commit"
+root@13a8b320252:/alx-pre_course# cat README.md
+My first readme
+root@13a8b320252:/alx-pre_course# git config --global user.email "christeey2018@gmail.com"
+root@13a8b320252:/alx-pre_course# git config --global user.name " Otufale Christianah Abiodun"
+root@13a8b320252:/alx-pre_course# git add README.md
+root@13a8b32052:/alx-pre_course#git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/Abiod20/alx-pre_course.git
 git push -u origin main My first readme 
