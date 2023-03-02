@@ -1,4 +1,4 @@
-echo "# alx-pre_course" >> README.md
+root@13a8b320252:/alx-pre_course# echo'My first readme' >> README.md
 git init
 git add README.md
 git commit -m "first commit"
